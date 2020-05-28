@@ -811,7 +811,7 @@ img::-moz-selection {
 /* Hux add tags support */
 .tags {
   margin-bottom: -5px;
-  font-size: 0;
+  white-space: nowrap;
 }
 .tags a,
 .tags .tag {
@@ -855,6 +855,7 @@ img::-moz-selection {
 }
 #tag_cloud {
   margin: 20px 0 15px 0;
+  white-space: normal;
 }
 #tag_cloud a,
 #tag_cloud .tag {

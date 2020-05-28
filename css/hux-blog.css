@@ -811,7 +811,7 @@ img::-moz-selection {
 /* Hux add tags support */
 .tags {
   margin-bottom: -5px;
-  white-space: nowrap;
+  font-size: 0;
 }
 .tags a,
 .tags .tag {

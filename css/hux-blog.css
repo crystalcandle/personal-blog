@@ -814,7 +814,11 @@ img::-moz-selection {
 }
 .tags a,
 .tags .tag {
-  display: inline-flex;
+  display: -moz-inline-stack; 
+  display: inline-block; 
+  vertical-align: top; 
+  zoom: 1; 
+  *display: inline;
   border: 1px solid rgba(255, 255, 255, 0.8);
   border-radius: 999em;
   padding: 0 12px;

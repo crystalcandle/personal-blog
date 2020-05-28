@@ -817,7 +817,7 @@ img::-moz-selection {
   display: inline-block;
   border: 1px solid rgba(255, 255, 255, 0.8);
   border-radius: 999em;
-  padding: 0 10px;
+  padding: 0 12px;
   color: #ffffff;
   line-height: 24px;
   font-size: 12px;
